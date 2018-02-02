@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InstaLogin</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">lq6WsEYnjqENlxQlpPSRNMeyk</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">vTtWpEEoHlVN2Lsm1cpYoMMgXoI8V2hijwXrpg0oR7AIJIMpwP</string>
+</resources>

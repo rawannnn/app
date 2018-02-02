@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.zeeroapps.instalogin.Controller.MainActivity">
+
+    <Button
+        android:id="@+id/btn_insta_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/login_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/login_button"
+        android:layout_marginTop="27dp"
+        android:onClick="onClickLogin"
+        android:text="Login to Instagram" />
+
+    <Button
+        android:id="@+id/btn_insta_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_insta_login"
+        android:layout_alignStart="@+id/btn_insta_login"
+        android:layout_below="@+id/btn_twitter_logout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="33dp"
+        android:onClick="onClickLogout"
+        android:text="Logout from Instagram"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/btn_twitter_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/login_button"
+        android:layout_marginTop="24dp"
+        android:text="Logout from Twitter"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_insta_logout"
+        android:layout_alignStart="@+id/btn_insta_logout"
+        android:layout_below="@+id/btn_insta_login"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="46dp"
+        android:foregroundGravity="center"
+        android:visibility="invisible" />
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toLeftOf="@+id/progress_bar"
+        android:layout_toStartOf="@+id/progress_bar"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_insta_logout"
+        android:layout_marginTop="14dp"
+        android:text="NextA" />
+
+</RelativeLayout
+   >

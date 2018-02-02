@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/razan/Downloads/InstaLogin-master copy 2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4ae88e6c63d6bd1c8ca34779eafde629ccc4705">
+        <dex dex="/Users/razan/Downloads/InstaLogin-master copy 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1a43ed6a6f8eaf64ebc9bf13fa1a98a50caf7d99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/razan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/razan/Downloads/InstaLogin-master copy 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_48f1572aea59dc86508a4655387cf2eb7493f4ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/razan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.0/1b6c10b5120995a7542c1a31b7828fb8593c8ba/okhttp-3.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
+        <dex dex="/Users/razan/Downloads/InstaLogin-master copy 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.9.0_a8dcff6ea9b1eb30e5708abe30b25bfb18fbffc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/razan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/razan/Downloads/InstaLogin-master copy 2/app/build/intermediates/pre-dexed/debug/okio-1.13.0_48f1572aea59dc86508a4655387cf2eb7493f4ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/razan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.0/1b6c10b5120995a7542c1a31b7828fb8593c8ba/okhttp-3.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
+        <dex dex="/Users/razan/Downloads/InstaLogin-master copy 2/app/build/intermediates/pre-dexed/debug/okhttp-3.9.0_a8dcff6ea9b1eb30e5708abe30b25bfb18fbffc4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/razan/Downloads/InstaLogin-master copy 2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/razan/Downloads/InstaLogin-master copy 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6a1e8b97d8f6daccff1d296d24b61f5b2a582cd5/classes.dex" />
+    </item>
+
+</items>
